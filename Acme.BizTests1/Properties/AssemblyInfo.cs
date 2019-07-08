@@ -5,15 +5,14 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Acme.Biz")]
+[assembly: AssemblyTitle("Acme.BizTests1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("InStep Technologies, Inc.")]
-[assembly: AssemblyProduct("Acme.Biz")]
-[assembly: AssemblyCopyright("Copyright © InStep Technologies, Inc. 2015")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("Acme.BizTests1")]
+[assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: InternalsVisibleTo("Acme.BizTests")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
 // to COM components.  If you need to access a type in this assembly from 
@@ -21,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5c818ab4-0b33-4802-933d-11210eb5c229")]
+[assembly: Guid("38a9d9f1-b80d-42f8-83b3-efb0af146eef")]
 
 // Version information for an assembly consists of the following four values:
 //

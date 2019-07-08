@@ -23,6 +23,7 @@ namespace Acme.Biz
         {
             Console.WriteLine("Product instance is created");
             this.MinimumPrice = .96m;
+            this.Category = "Tools";
         }
 
         public Product(int productId, string productName, string description): this()
@@ -105,8 +106,11 @@ namespace Acme.Biz
             set { productVendor = value; }
         }
 
+        internal string Category { get; set; }
+        public int SequenceNumber { get; set; } = 1;
         public string ValidationMessage { get; private set; }
 
+        public string ProductCode => this.Category + "-" + this.SequenceNumber;
 
         #endregion
 
